@@ -10,17 +10,16 @@ This repository contains the code used for generating simulated phenotypes and t
 3. **`chr22_phase3_b_no_dup.zip`**: The zipped bfiles that contain genotype information for chr22. *This file is needed for phenotype simulation.*
 
 ### Simulation Details
+The simulation is based on the equation:
 
-The simulation is based on the following equation:
+  $$ y = a X \cdot W_{eas} + b X \cdot W_{eur} $$
 
-\[ y = a X \cdot W_{\text{eas}} + b X \cdot W_{\text{eur}} \]
-
-where:
-- \( y \) is the phenotype matrix containing the simulated phenotype for each individual.
-- \( X \) is the genotype matrix where rows represent individuals, columns represent variants, and each entry is the allele count for that individual at that variant.
-- \( W_{\text{eas}} \) and \( W_{\text{eur}} \) are the weight matrices for the East Asian and the European genotype matrices respectively, where each entry is the effect size of each variant based on the PRS-CSx output.
-- \( a \) is the weight parameter for the East Asian genotype matrix, set to 0.9.
-- \( b \) is the weight parameter for the European genotype matrix, set to 0.1.
+where
+- y is the phenotype matrix that contains the simulated phenotype for each individual.
+- X is the genotype matrix where the rows represent the individuals, the column represent variants, and each entry is the allele count for that individual at that variant.
+- $W_{eas}$ and $W_{eur}$ are the weight matrices for the East Asian and the European genotype matrices respectively, where each entry is the effect size of each variant based on the PRS-CSx output.
+- a is the weight parameter for the East Asian genotype matrix and is set as 0.9.
+- b is the weight parameter for the European genotype matrix and set as 0.1.
 
 ## PRS-CSx Workshop
 
