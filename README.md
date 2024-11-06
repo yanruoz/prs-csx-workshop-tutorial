@@ -12,7 +12,7 @@ This repository contains the code used for generating simulated phenotypes and t
 ### Simulation Details
 The simulation is based on the equation:
 
-  $$ y = a X \cdot W_{eas} + b X \cdot W_{eur} $$
+  $$ y = a X \cdot W_{eas} + b X \cdot W_{eur} + &#949;$$
 
 where
 - y is the phenotype matrix that contains the simulated phenotype for each individual.
@@ -20,6 +20,7 @@ where
 - $W_{eas}$ and $W_{eur}$ are the weight matrices for the East Asian and the European genotype matrices respectively, where each entry is the effect size of each variant based on the PRS-CSx output.
 - a is the weight parameter for the East Asian genotype matrix and is set as 0.9.
 - b is the weight parameter for the European genotype matrix and set as 0.1.
+- &#949; is the non-genetic component that contributes to complex diseases.
 
 ## PRS-CSx Workshop
 
