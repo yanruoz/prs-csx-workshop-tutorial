@@ -1,6 +1,7 @@
 # PRS-CSx Phenotype Simulation and Workshop Tutorial
 
 This repository contains the code used for generating simulated phenotypes and the tutorial materials for running and evaluating PRS-CSx in Jupyter Notebooks.
+Please download all files in this repository to a single folder (You can navigate to the main page of the repository. Above the list of files, click Code. Click Download ZIP.) for the code to run smoothly.
 
 ## Phenotype Simulation
 The simulation is based on the equation:
