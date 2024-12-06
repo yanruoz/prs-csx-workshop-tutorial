@@ -22,7 +22,7 @@ This folder includes the script, the input files, and the output files of runnin
 
 ## Running, Using, and Evaluating PRS-CSx (`run_use_evaluate_prscsx`)
 The three folders in the `run_use_evaluate_prscsx` folder inlcude the tutorials for running, using, and evaluating PRS-CSx respectively. Each part can be run on its own.
-### Part 1. Running PRS-CSx for variants' weights
+### Part 1. Running PRS-CSx for variants' weights (`run`)
 #### `scripts`:
 1. run_prscsx.ipynb: the Jupyter Notebook tutoiral for running PRS-CSx to obtain variants' weights
 2. run_prscsx.sh: the bash script for running PRS-CSx (whose execution is embedded in run_prscsx.ipynb)
@@ -60,7 +60,7 @@ The three folders in the `run_use_evaluate_prscsx` folder inlcude the tutorials 
 7. (intermediate output) the cut test_EUR_pst_eff_a1_b0.5_phi1e-02_chr22.txt with only the "rsid" and "effect size" column for the EUR population: EUR_prscsx_output_cut
 8. (intermediate output) the txt file that includes overlapping risk variants between the test data of EUR and EAS populations: overlap_risk_variants.txt
 
-### Part 3. Evalutating the estimates for individual risks
+### Part 3. Evalutating the estimates for individual risks (`evaluate`)
 #### `scripts`
 1. use_prscsx.ipynb: the Jupyter Notebook tutoiral for evalutating the estimates for individual risks
 
