@@ -50,17 +50,15 @@ The three folders in the `run_use_evaluate_prscsx` folder inlcude the tutorials 
 5. the validation dataset for phenotypes: phenotype_vali
 6. the test dataset for phenotypes: phenotype_test
 
-#### intermediate outputs (also in the `outputs` folder):
-1. the cut test_EAS_pst_eff_a1_b0.5_phi1e-02_chr22.txt with only the "rsid" and "effect size" column for the EAS population: EAS_prscsx_output_cut
-2. the cut test_EUR_pst_eff_a1_b0.5_phi1e-02_chr22.txt with only the "rsid" and "effect size" column for the EUR population: EUR_prscsx_output_cut
-3. the txt file that includes overlapping risk variants between the test data of EUR and EAS populations: overlap_risk_variants.txt
-
 #### `outputs`:
 1. the coefficient vector for EAS population ($W_{eas}$): W_eas
-2. tge coefficient vector for EUR population ($W_{eur}$ ): W_eur
+2. the coefficient vector for EUR population ($W_{eur}$ ): W_eur
 3. the weight parameter for the EAS population: a_hat (displayed in Notebook only)
 4. the weight parameter for the EUR population: a_hat (displayed in Notebook only)
 5. the predicted phenotypes of the validation dataset: y_hat_vali
+6. (intermediate output) the cut test_EAS_pst_eff_a1_b0.5_phi1e-02_chr22.txt with only the "rsid" and "effect size" column for the EAS population: EAS_prscsx_output_cut
+7. (intermediate output) the cut test_EUR_pst_eff_a1_b0.5_phi1e-02_chr22.txt with only the "rsid" and "effect size" column for the EUR population: EUR_prscsx_output_cut
+8. (intermediate output) the txt file that includes overlapping risk variants between the test data of EUR and EAS populations: overlap_risk_variants.txt
 
 ### Part 3. Evalutating the estimates for individual risks
 #### `scripts`
