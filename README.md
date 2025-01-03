@@ -24,7 +24,7 @@ This folder includes the script, the input files, and the output files of runnin
 The three folders in the `run_use_evaluate_prscsx` folder inlcude the tutorials for running, using, and evaluating PRS-CSx respectively. Each part can be run on its own.
 ### Part 1. Running PRS-CSx for variants' weights (`run`)
 #### `scripts`:
-1. run_prscsx.ipynb: the Jupyter Notebook tutoiral for running PRS-CSx to obtain variants' weights
+1. run_prscsx.ipynb: the Jupyter Notebook tutorial for running PRS-CSx to obtain variants' weights
 2. run_prscsx.sh: the bash script for running PRS-CSx (whose execution is embedded in run_prscsx.ipynb)
 
 #### `inputs`:
@@ -40,7 +40,7 @@ The three folders in the `run_use_evaluate_prscsx` folder inlcude the tutorials 
 
 ### Part 2. Using the variants' weights to estimate individual risks (`use`)
 #### `scripts`
-1. use_prscsx.ipynb: the Jupyter Notebook tutoiral for using the variants' weights to estimate individual risks
+1. use_prscsx.ipynb: the Jupyter Notebook tutorial for using the variants' weights to estimate individual risks
 
 #### `inputs`:
 1. EAS PRS (contains population-specific posterior SNP effect size estimates for each individual): test_EAS_pst_eff_a1_b0.5_phi1e-02_chr22.txt
@@ -62,7 +62,7 @@ The three folders in the `run_use_evaluate_prscsx` folder inlcude the tutorials 
 
 ### Part 3. Evalutating the estimates for individual risks (`evaluate`)
 #### `scripts`
-1. use_prscsx.ipynb: the Jupyter Notebook tutoiral for evalutating the estimates for individual risks
+1. use_prscsx.ipynb: the Jupyter Notebook tutorial for evalutating the estimates for individual risks
 
 #### `inputs`
 1. the validation dataset for genotypes: genotype_vali
